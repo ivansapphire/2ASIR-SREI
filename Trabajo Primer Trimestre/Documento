@@ -1,0 +1,15 @@
+# 🌐 Práctica de Servidores Web y Servicios de Red e Internet
+
+Este repositorio documenta la práctica de instalación y configuración de dos servidores web (**Apache** y **Nginx**) en un sistema **Ubuntu**, utilizando varios dominios virtuales para alojar **WordPress**, una aplicación **Python/WSGI**, la herramienta de análisis de logs **AWStats** y **phpMyAdmin**.
+
+---
+
+## 1. Preparación Inicial del Sistema
+
+### 1.1. Actualización del Sistema
+
+[cite_start]Se parte de una instalación limpia de Ubuntu y se actualizan los paquetes[cite: 11].
+
+```bash
+sudo apt update && sudo apt upgrade -y
+
